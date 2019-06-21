@@ -7,5 +7,3 @@
 ## NOTES 
  * Templated repo must setup Github integrations with continuous integration(ie Hound, Travis, CodeClimate, etc)
  * Sentry integration - https://docs.sentry.io/error-reporting/quickstart/?platform=python
-## TODOS
- * itd be nice if linter would pull from pip pkg instead of static file
