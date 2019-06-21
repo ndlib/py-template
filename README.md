@@ -4,3 +4,4 @@
 ## Testing - how to kick off test and what is the expected coverage
 ## Dependencies - what other stacks rely upon this
 ## Deployment
+## NOTES - templated repo must setup integrations with continuous integration(ie Hound, Travis, CodeClimate, etc)
