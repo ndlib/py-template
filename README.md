@@ -1,4 +1,4 @@
-# WSE Python Template Repository
+# Hesburgh Libraries Python Template Repository
 ## Description
 ## Installation
 ## Testing - how to kick off test and what is the expected coverage
