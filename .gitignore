@@ -65,7 +65,7 @@ db.sqlite3-journal
 
 # AWS CDK:
 cdk.out/
-stackname.json
+deploy.json
 
 # Flask stuff:
 instance/

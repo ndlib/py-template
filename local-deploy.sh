@@ -21,8 +21,9 @@ fi
 
 # prep deploy
 stackname=${1}
+deploy_cfg="deploy.json"
 stack_json="{ \"stackname\": \"${stackname}\" }"
-echo ${stack_json} > stackname.json
+echo ${stack_json} > ${deploy_cfg}
 
 # deploy
 cdk deploy
