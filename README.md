@@ -3,7 +3,6 @@
 ## Installation
 1. Setup pyenv - https://github.com/pyenv/pyenv
 2. Setup aws-cdk - https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html
-2. pip install -r dev-requirements.txt
 
 Use venv - https://docs.python.org/3/library/venv.html
 
@@ -15,13 +14,11 @@ Tests should be placed in test/unit
 
 To execute all test: `python run_all_tests.py`
 ## Dependencies
-### AWS CDK Dependencies
-Review the install_requires in setup.py to add/remove specific AWS CDK packages
 ### Development Dependencies
-These should be added to the dev-requirements.txt
+Review the dev-requirements.txt to update development packages
 An example would be our linter package - flake8
 ### Production Dependencies
-These should be added to requirements.txt
+Review the install_requires in setup.py to update production packages
 ## Deployment
 ### Local deployment to AWS
 1. Setup virtual env
@@ -29,7 +26,8 @@ These should be added to requirements.txt
     2. source .env/bin/activate
 2. Run local deployment
     1. local-deploy.sh mystackname
-3. deactivate
+3. Exit virtual env
+    1. deactivate
 
 ## NOTES 
  * Templated repo must setup Github integrations with continuous integration(ie Hound, Travis, CodeClimate, etc)
